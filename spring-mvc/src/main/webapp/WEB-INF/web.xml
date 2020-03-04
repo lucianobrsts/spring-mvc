@@ -4,9 +4,12 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
 	id="WebApp_ID" version="3.1">
 
-	<!-- Default page -->
+	<!-- Nome da aplicação -->
+	<display-name>spring-mvc</display-name>
+
+	<!-- Arquivo principal da aplicação -->
 	<welcome-file-list>
-		<welcome-file>/pages/index.xhtml</welcome-file>
+		<welcome-file>pages/index.xhtml</welcome-file>
 	</welcome-file-list>
 
 </web-app>
